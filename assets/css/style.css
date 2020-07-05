@@ -1,5 +1,17 @@
+
+
+.jumbotron {
+    color: #eee;
+    background-color: lightseagreen;
+}
+
+nav {
+    padding: top;
+    margin-top: -30px;
+}
+
 .navbar-nav{
-    float:none;
+    float: none;
     margin: 0 auto;
     display: table;
     table-layout: fixed;
