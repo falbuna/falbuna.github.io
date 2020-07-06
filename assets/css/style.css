@@ -1,7 +1,7 @@
 .jumbotron {
     color: #eee;
     background-color: lightseagreen;
-}
+ }
 
 .jumbotron h1 {
     font-size: 50px;
@@ -21,3 +21,9 @@ nav {
     display: table;
     table-layout: fixed;
 }
+
+#bio-image {
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+  }
