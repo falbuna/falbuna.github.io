@@ -1,36 +1,26 @@
-.jumbotron {
-    color: #eee;
-    background-color: lightseagreen;
- }
 
-.jumbotron h1 {
-    font-size: 50px;
-    font-family: "Times New Roman", Times, serif;
-    font-weight: bold;
-
-}
-
-nav {
+/* nav {
     padding: top;
     margin-top: -30px;
-}
+ } */
 
-.navbar-nav{
+/* .navbar-nav{ 
     float: none;
     margin: 0 auto;
     display: table;
     table-layout: fixed;
-}
+} */
 
-h2 {
+/* h2 {
     padding: 20px;
     color: lightseagreen;
     font-family: "Times New Roman";
     font-weight: bold;
-}
+ } */
 
 #bio-image {
     width: 400px;
     height: 400px;
     margin-right: 20px;
   }
+
