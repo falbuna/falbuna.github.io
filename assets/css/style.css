@@ -1,5 +1,5 @@
 
-nav {
+/* nav {
     
  }
 
@@ -7,7 +7,7 @@ nav {
 
 }
 
-/* h2 {
+h2 {
     padding: 20px;
     color: lightseagreen;
     font-family: "Times New Roman";
@@ -21,15 +21,25 @@ nav {
 #bio-image {
     float: left; 
     margin-right: 10px;
-    padding-left: 10px;
+    padding-left: 30px;
     margin-bottom: 5px;
+    width: 150px;
+    height: auto;
 }
 
-@media screen and (max-width: 640px) {
 
+@media screen and (max-width: 767px) {
 
 #bio-image {
-
+    width: 200px;
+    height: auto;
+}
 }
 
+@media screen and (max-width: 641px) {
 
+#bio-image {
+    width: 550px;
+    height: auto;
+}
+}
