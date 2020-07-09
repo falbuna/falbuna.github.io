@@ -1,15 +1,11 @@
 
-/* nav {
-    padding: top;
-    margin-top: -30px;
- } */
+nav {
+    
+ }
 
-/* .navbar-nav{ 
-    float: none;
-    margin: 0 auto;
-    display: table;
-    table-layout: fixed;
-} */
+.navbar-nav{ 
+
+}
 
 /* h2 {
     padding: 20px;
@@ -28,5 +24,12 @@
     padding-left: 10px;
     margin-bottom: 5px;
 }
- 
+
+@media screen and (max-width: 640px) {
+
+
+#bio-image {
+
+}
+
 
