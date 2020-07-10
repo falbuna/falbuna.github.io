@@ -3,6 +3,10 @@ h3 {
     font-weight: bold;
  }
 
+ h4 {
+     font-family: "Times New Roman";
+ }
+
 hr {
     width: 90%;
 }
@@ -19,10 +23,10 @@ hr {
 }
 
 #port-image{
-    width: 150px;
+    width: 300px;
     height: auto;
-    padding-left: 10px;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /* Medium Media Screens (768 - 992 pixels) */
@@ -30,10 +34,6 @@ hr {
 #bio-image {
     width: 300px;
     height: auto;
-}
-#port-image{
-
-}
 }
 
 /* Small Media Screens (576 - 767 pixels) */
