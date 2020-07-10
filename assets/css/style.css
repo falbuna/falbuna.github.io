@@ -19,20 +19,42 @@ hr {
 }
 
 #port-image{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: auto;
     padding-left: 10px;
     padding-bottom: 10px;
 }
 
-
-@media screen and (max-width: 767px) {
-
+/* Medium Media Screens (768 - 992 pixels) */
+@media screen and (max-width: 992px) {
 #bio-image {
     width: 300px;
     height: auto;
 }
+#port-image{
 
+}
+}
+
+/* Small Media Screens (576 - 767 pixels) */
+@media screen and (max-width: 767px) {
+#bio-image {
+    width: 450px;
+    height: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#port-image{
+    width:500px;
+    height: auto;
+    padding-left: -50px;
+    padding-right: 10px;
+}
+}
+
+main {
+}
 }
 
 @media screen and (max-width: 641px) {
@@ -42,5 +64,11 @@ hr {
     height: auto;
     padding-right: 30px;
     padding-bottom: 10px;
+}
+#port-image{
+    padding-left: -50px;
+    padding-right: 10px;
+    width: 500px;
+    height: auto;
 }
 }
