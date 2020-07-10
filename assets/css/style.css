@@ -7,17 +7,22 @@ hr {
     width: 90%;
 }
 
- .border{
-     display: inline-block;
- }
+
 
 #bio-image {
     float: left; 
-    margin-right: 10px;
-    padding-left: 30px;
+    margin-right: 20px;
+    padding-left: 20px;
     margin-bottom: 5px;
     width: 200px;
     height: auto;
+}
+
+#port-image{
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -33,7 +38,9 @@ hr {
 @media screen and (max-width: 641px) {
 
 #bio-image {
-    width: 550px;
+    width: 500px;
     height: auto;
+    padding-right: 30px;
+    padding-bottom: 10px;
 }
 }
