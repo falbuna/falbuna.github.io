@@ -20,21 +20,16 @@ hr {
     height: auto;
 }
 
-#port-image {
-    width: 300px;
-    height: auto;
-}
-
 #port-card {
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-top: 20px;
-    margin-right: 20px;
+    width: 300px;
 }
 
 #text-overlay {
     padding: .1px;
-    margin-top: 200px;
+    margin-top: 90%;
     margin-right: -1.5px;
 }
 
@@ -48,36 +43,14 @@ hr {
 /* Small Media Screens (576 - 767 pixels) */
 @media screen and (max-width: 767px) {
 #bio-image {
+    width: 500px;
+    height: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#port-card{
     width: 450px;
     height: auto;
-    padding-right: 10px;
-    padding-bottom: 10px;
-}
-
-#port-image{
-    width:500px;
-    height: auto;
-    padding-left: -50px;
-    padding-right: 10px;
-}
-}
-
-main {
-}
-}
-
-@media screen and (max-width: 641px) {
-
-#bio-image {
-    width: 500px;
-    height: auto;
-    padding-right: 30px;
-    padding-bottom: 10px;
-}
-#port-image{
-    padding-left: -50px;
-    padding-right: 10px;
-    width: 500px;
-    height: auto;
-}
+    margin-left: 30px;
 }
