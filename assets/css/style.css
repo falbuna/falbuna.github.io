@@ -1,11 +1,18 @@
-h3 {
+h1 {
     font-family: "Times New Roman";
     font-weight: bold;
+    font-size: 28px;
  }
 
  h4 {
      font-family: "Times New Roman";
  }
+
+.nav-link {
+    border-left: 10px;
+    height: 10px;
+    color: #cecece;
+}
 
 hr {
     width: 95%;
@@ -15,9 +22,9 @@ hr {
     float: left; 
     margin-right: 20px;
     padding-left: 20px;
-    margin-bottom: 5px;
-    width: 200px;
-    height: auto;
+    margin-bottom: 10px;
+    width: auto;
+    height: 250px;
 }
 
 #port-card {
@@ -33,11 +40,16 @@ hr {
     margin-right: -1.5px;
 }
 
+#footer {
+
+}
+
 /* Medium Media Screens (768 - 992 pixels) */
 @media screen and (max-width: 992px) {
 #bio-image {
-    width: 300px;
+    width: 400px;
     height: auto;
+}
 }
 
 /* Small Media Screens (576 - 767 pixels) */
@@ -53,4 +65,5 @@ hr {
     width: 450px;
     height: auto;
     margin-left: 30px;
+}
 }
