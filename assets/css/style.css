@@ -8,10 +8,8 @@ h3 {
  }
 
 hr {
-    width: 90%;
+    width: 95%;
 }
-
-
 
 #bio-image {
     float: left; 
@@ -22,11 +20,22 @@ hr {
     height: auto;
 }
 
-#port-image{
+#port-image {
     width: 300px;
     height: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
+}
+
+#port-card {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#text-overlay {
+    padding: .1px;
+    margin-top: 200px;
+    margin-right: -1.5px;
 }
 
 /* Medium Media Screens (768 - 992 pixels) */
