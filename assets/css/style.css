@@ -14,6 +14,10 @@ h3 {
     font-size: 12px;
 }
 
+header {
+    margin-bottom: -24px;
+}
+
 hr {
     width: 95%;
 }
