@@ -45,7 +45,7 @@ hr {
 }
 /* Content Sizing */
 .content {
-    min-height: calc(95vh - 70px);
+    min-height: calc(98.5vh - 90px);
     padding: 40px 40px 0 40px;
 }
 /* Footer Height */
@@ -56,7 +56,7 @@ hr {
 footer {
     background-color: grey;
     color: white;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* Medium Media Screens (768 - 992 pixels) */
