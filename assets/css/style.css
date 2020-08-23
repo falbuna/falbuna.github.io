@@ -35,7 +35,7 @@ hr {
     margin-bottom: 20px;
     margin-left: 10px;
     margin-top: 20px;
-    width: 300px;
+    width: auto;
 }
 /* Margins for Text Overlay on Portfolio Images */
 #text-overlay {
@@ -57,6 +57,17 @@ footer {
     background-color: grey;
     color: white;
     padding: 10px;
+}
+
+.sidebar {
+    width: 25%;
+    height: 25vh;
+    min-height: 200px;
+    overfloW: auto;
+    position: sticky;    
+}
+
+#github{
 }
 
 /* Medium Media Screens (768 - 992 pixels) */

@@ -7,13 +7,32 @@
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script>
+        $(function() {
+            $("#dialog").dialog({
+                autoOpen: false,
+                show: {
+                    effect: "blind",
+                },
+            })
+
+            $("#opener").on("click", function(){
+                $("#dialog").dialog("open");
+            })
+        });
+
+
+    </script>
 </head>
 
 <body>
@@ -69,9 +88,20 @@
                     <p class="pl-3">I am currently employed as a Manufacturing Technician in San Diego, California. I graduated in 2010 with a Bachelor of Science in Electrical Engineering at the University of California, Irvine. I am also currently enrolled at the 6-month coding program at the University of California, San Diego Extension.
                     </p>
                     <p class="pl-3">In my spare time, you can find me cooking, watching movies, playing video games, or staying active by lifting weights or hiking. I have also found a new found passion in coding and programming, and I wish to showcase my developing skills in this portfolio.</p>
+                    <p class="pl-3">Links to my Github, LinkedIn, and Resume can be found <button id="opener">Here!</button></p>
 
             </div>
-
+            
+            <div id="dialog" title="Links">
+                <button type="button" class="btn btn-light">
+                    <a href="https://github.com/falbuna">
+                    <img class="img-fluid" id="github" src="./assets/images/GitHub-Mark.png" style="width: 50px; height: auto"></a>
+                </button>
+                <button type="button" class="btn btn-light">
+                    <a href="https://www.linkedin.com/in/francis-albuna-41ba621b0/">
+                    <img class="img-fluid" id="linkedin" src="./assets/images/LI-In-Bug.png" style="width: 50px; height: auto"></a>
+                </button>
+            </div>
         </div>
 
     </main>
