@@ -8,6 +8,12 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous"
+  />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -24,6 +30,9 @@
                 show: {
                     effect: "blind",
                 },
+                hide: {
+                    effect: "blind",
+                }
             })
 
             $("#opener").on("click", function(){
@@ -88,18 +97,22 @@
                     <p class="pl-3">I am currently employed as a Manufacturing Technician in San Diego, California. I graduated in 2010 with a Bachelor of Science in Electrical Engineering at the University of California, Irvine. I am also currently enrolled at the 6-month coding program at the University of California, San Diego Extension.
                     </p>
                     <p class="pl-3">In my spare time, you can find me cooking, watching movies, playing video games, or staying active by lifting weights or hiking. I have also found a new found passion in coding and programming, and I wish to showcase my developing skills in this portfolio.</p>
-                    <p class="pl-3">Links to my Github, LinkedIn, and Resume can be found <button id="opener">Here!</button></p>
+                    <p class="pl-3">Links to my Github, LinkedIn, and Resume can be found <button id="opener" class="btn btn-outline-info">Here!</button></p>
 
             </div>
             
             <div id="dialog" title="Links">
                 <button type="button" class="btn btn-light">
                     <a href="https://github.com/falbuna">
-                    <img class="img-fluid" id="github" src="./assets/images/GitHub-Mark.png" style="width: 50px; height: auto"></a>
+                    <img class="img-fluid" id="github" src="./assets/images/GitHub-Mark.png" style="width: 50px; height: 50px"></a>
                 </button>
                 <button type="button" class="btn btn-light">
                     <a href="https://www.linkedin.com/in/francis-albuna-41ba621b0/">
-                    <img class="img-fluid" id="linkedin" src="./assets/images/LI-In-Bug.png" style="width: 50px; height: auto"></a>
+                    <img class="img-fluid" id="linkedin" src="./assets/images/LI-In-Bug.png" style="width: auto; height: 50px"></a>
+                </button>
+                <button type="button" class="btn btn-light" style="width: 60px; height: 60px">
+                    <a href="./assets/documents/Francis_Albuna_Resume.pdf">
+                    <i class="far fa-file"></i></a>
                 </button>
             </div>
         </div>

@@ -67,8 +67,6 @@ footer {
     position: sticky;    
 }
 
-#github{
-}
 
 /* Medium Media Screens (768 - 992 pixels) */
 @media screen and (max-width: 992px) {
