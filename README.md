@@ -1,10 +1,18 @@
 # My Mobile Responsive Porfolio
 
+The link for my Portfolio can be found here: [https://falbuna.github.io/](https://falbuna.github.io/)
+
 ## Introduction
 
 In today's day and age, technology can take on the form of a vast array and assortment of screen sizes of media devices. You can view pages on a computer screen monitor, a tablet, and even on a handheld phone. This means that web pages need to be designed to be adaptive and media responsive depending on the screen size the page is being viewed on. A responsive design ensures that web applications will look excellent on a variety of devices, regardless of the size or type of media device.
 
 As a junior developer, I was tasked with creating a mobile-first application. I felt that this exercise will be beneficial, because there will be times when I will have to create an application that looks mobile ready. Additionally, there will be times I can be tasked with adding a responsive design to an existing application. My motivation for doing this project was to test the skills I learned in class on Bootstrap CSS Framework. I also wanted to create a portfolio that is responsive so that I can showcase the future projects and assignments I will complete in this course on any type of device for any potential employers.
+
+## Usage
+
+The main About me page. When the user clicks on Links, a dialog box will appear with links to my Github, LinkdIn, and Resume.
+
+
 
 ## How I Created My Responsive Portfolio
 
