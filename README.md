@@ -12,7 +12,11 @@ As a junior developer, I was tasked with creating a mobile-first application. I 
 
 The main About me page. When the user clicks on Links, a dialog box will appear with links to my Github, LinkdIn, and Resume.
 
-![About Francis Albuna page with Link dialog box]()
+![About Francis Albuna page with Link dialog box](https://github.com/falbuna/falbuna.github.io/blob/master/assets/images/About.png)
+
+The portfolio page has links for the projects and applications I want showcased. When the user clicks on the links, they will be direction to the application. When the user clicks on the title of the application, they will be directed to the Github Repository.
+
+![Portfolio page]()
 
 ## How I Created My Responsive Portfolio
 
