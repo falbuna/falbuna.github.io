@@ -12,7 +12,7 @@ As a junior developer, I was tasked with creating a mobile-first application. I 
 
 The main About me page. When the user clicks on Links, a dialog box will appear with links to my Github, LinkdIn, and Resume.
 
-
+![About Francis Albuna page with Link dialog box]()
 
 ## How I Created My Responsive Portfolio
 
