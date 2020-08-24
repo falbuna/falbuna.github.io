@@ -16,7 +16,7 @@ The main About me page. When the user clicks on Links, a dialog box will appear 
 
 The portfolio page has links for the projects and applications I want showcased. When the user clicks on the links, they will be direction to the application. When the user clicks on the title of the application, they will be directed to the Github Repository.
 
-![Portfolio page]()
+![Portfolio page](https://github.com/falbuna/falbuna.github.io/blob/master/assets/images/PortfolioPage.PNG)
 
 ## How I Created My Responsive Portfolio
 
