@@ -45,7 +45,7 @@ hr {
 }
 /* Content Sizing */
 .content {
-    min-height: calc(98.5vh - 90px);
+    min-height: calc(98.5vh - 95px);
     padding: 40px 40px 0 40px;
 }
 /* Footer Height */
